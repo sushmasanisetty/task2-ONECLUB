@@ -1,0 +1,49 @@
+/* Styling for the overall layout and components */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling for list items and interactions */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling for error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Styling for buttons and additional components */
+.btn-group {
+  margin-left: 10px;
+}
